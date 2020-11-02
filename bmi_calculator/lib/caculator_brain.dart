@@ -13,21 +13,21 @@ class CalculatorBrain {
 
   String getResult() {
     if (_bmi >= 25) {
-      return 'wêl nr';
+      return 'max';
     } else if (_bmi > 18.5) {
-      return 'idudkHhs';
+      return 'normal';
     } else {
-      return 'wvq nr';
+      return 'min';
     }
   }
 
   String getInterpretation() {
     if (_bmi >= 25) {
-      return 'Tng idudkH YÍr ialkaO o¾Ylhg jvd by< w.hla we;';
+      return 'maxMsg';
     } else if (_bmi > 18.5) {
-      return 'Tng idudkH YÍr ialkaO o¾Ylhla we;" Tfí wdydr fõ, wkq.ukh lrkak';
+      return 'normalMsg';
     } else {
-      return 'idudkH mqoa.,hdg jvd wvq YÍr ialkaO o¾Ylhla Tng ;sfí kï" fmdaIK wdydr ,nd .kak';
+      return 'minMsg';
     }
   }
 }

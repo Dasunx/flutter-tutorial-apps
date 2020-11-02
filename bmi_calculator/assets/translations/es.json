@@ -1,0 +1,18 @@
+{
+  "title": "BMI Calculadora",
+  "male": "Hombre",
+  "female": "Mujer",
+  "height": "Altura",
+  "cm": "Centímetro",
+  "weight": "peso",
+  "age": "Años",
+  "cal" : "Calcular",
+  "outputTitle": "Tus resultados",
+  "min": "bajo peso",
+  "minMsg": "Tienes que comer un poco más, comer sano, beber más agua, eventualmente serás perfecto",
+  "normal": "Normal",
+  "normalMsg": "¡Tienes un tamaño de cuerpo perfecto! Mantén tu rutina diaria",
+  "max": "Exceso de peso",
+  "maxMsg": "Tienes un poco más de peso que una persona normal, sigue un plan de dieta y estarás perfecto",
+  "calAgain": "Calcular de nuevo"
+}
