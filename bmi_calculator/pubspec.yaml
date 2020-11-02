@@ -12,6 +12,7 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   font_awesome_flutter: ^8.8.1
+  easy_localization: ^2.3.3
 
 dev_dependencies:
   flutter_test:
@@ -20,6 +21,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
+  assets:
+    - assets/translations/
   fonts:
     - family: SINHA
       fonts:
@@ -27,3 +30,6 @@ flutter:
     - family: SAMADI
       fonts:
         - asset: fonts/SINHA_Samadi.ttf
+    - family: JOHN
+      fonts:
+          - asset: fonts/JohnSans.otf

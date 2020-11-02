@@ -2,6 +2,7 @@ import 'package:bmi_calculator/bottom_button.dart';
 import 'package:bmi_calculator/constants.dart';
 import 'package:bmi_calculator/reusable_card.dart';
 import 'package:flutter/material.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 class ResultsPage extends StatelessWidget {
   ResultsPage(
@@ -17,9 +18,9 @@ class ResultsPage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text(
-            'YÍr ialkaO o¾Ylh',
-            style: TextStyle(fontFamily: 'SAMADI', fontSize: 32.0),
-          ),
+            'title',
+            style: TextStyle(fontSize: 32.0),
+          ).tr(),
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -30,7 +31,7 @@ class ResultsPage extends StatelessWidget {
                 padding: EdgeInsets.all(17.0),
                 alignment: Alignment.bottomLeft,
                 child: Text(
-                  'Tnf.a m%Óm,',
+                  'outputTitle'.tr(),
                   style: kTitleTextStyle,
                 ),
               ),
@@ -44,7 +45,7 @@ class ResultsPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      resultText,
+                      resultText.tr(),
                       style: kResultTextStyle,
                     ),
                     Text(
@@ -57,7 +58,7 @@ class ResultsPage extends StatelessWidget {
                         interpretation,
                         style: kBodyTextStyle,
                         textAlign: TextAlign.center,
-                      ),
+                      ).tr(context: context),
                     )
                   ],
                 ),
@@ -67,7 +68,7 @@ class ResultsPage extends StatelessWidget {
               onTap: () {
                 Navigator.pop(context);
               },
-              buttonTitle: 'kej; .Kkh lrkak',
+              buttonTitle: 'calAgain'.tr(),
             ),
           ],
         ));

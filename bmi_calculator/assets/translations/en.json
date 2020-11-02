@@ -1,0 +1,18 @@
+{
+  "title": "BMI Calculator",
+   "male": "Male",
+  "female": "Female",
+  "height": "Height",
+  "cm": "Centimeter",
+  "weight": "weight",
+  "age": "Age",
+  "cal" : "Calculate",
+  "outputTitle": "Your Results",
+  "min": "underweight",
+  "minMsg": "You have to eat some more, Eat healthy drink more water, Eventually you will be perfect",
+  "normal": "Normal",
+  "normalMsg": "You have a perfect size of body! Keep up your daily routine",
+  "max": "Overweight",
+  "maxMsg": "You got little bit more weight than normal person, follow up a diet plan and you will be perfect",
+  "calAgain": "Calculate Again"
+}
